@@ -9,4 +9,10 @@ module "log" {
   location            = azurerm_resource_group.this.location
   name                = "log-example"
   sku                 = "PerGB2018"
+  solution_plan_map = {
+    ContainerInsights = {
+      product   = "OMSGallery/ContainerInsights"
+      publisher = "Microsoft"
+    }
+  }
 }
