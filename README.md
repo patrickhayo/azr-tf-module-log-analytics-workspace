@@ -1,6 +1,6 @@
-# azr-tf-module-template
+# azr-tf-module-log-analytics-workspace
 
-[Terraform](https://www.terraform.io) Module to create **[NAME]** in Azure
+[Terraform](https://www.terraform.io) Module to create **LogAnalytics Workspace** in Azure
 
 <!-- BEGIN_TF_DOCS -->
 ## Prerequisites
